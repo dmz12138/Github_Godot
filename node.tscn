@@ -8,8 +8,6 @@
 [node name="Node" type="Node" unique_id=61754203]
 script = ExtResource("1_sy5k4")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1502236569]
-
 [node name="Icon" type="Sprite2D" parent="." unique_id=2062734755]
 position = Vector2(210, 138)
 texture = ExtResource("2_112p8")
