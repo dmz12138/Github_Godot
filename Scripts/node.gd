@@ -1,13 +1,13 @@
-extends Node2D
+extends Node
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	print("我在网吧编辑了这行字符串")
-	print("ysy")
+	print("姚首次提交测试")
 	pass # Replace with function body.
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
+Scenes/node.tscn
