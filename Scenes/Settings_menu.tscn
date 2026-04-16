@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://cmpk66phhsbeh"]
+
+[ext_resource type="Script" uid="uid://caba6w7acs3pr" path="res://Scripts/SettingsMenuButton1.gd" id="1_bq654"]
+
+[node name="SettingsMenu" type="Control" unique_id=1785322043]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 47.0
+offset_top = 59.0
+offset_right = 47.0
+offset_bottom = 59.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Node2D" type="Node2D" parent="." unique_id=1414552972]
+
+[node name="Label" type="Label" parent="Node2D" unique_id=841601273]
+offset_right = 162.0
+offset_bottom = 53.0
+text = "这是一个菜单设置页面"
+
+[node name="Button" type="Button" parent="." unique_id=137345122]
+layout_mode = 0
+offset_left = -1.0
+offset_top = 25.0
+offset_right = 39.0
+offset_bottom = 56.0
+text = "返回"
+script = ExtResource("1_bq654")
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
