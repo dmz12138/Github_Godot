@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://g2tfuxogrfpt"]
 
-[ext_resource type="Script" uid="uid://bvoqx1p7rne0t" path="res://wangba_commit_test.gd" id="1_o5qcn"]
+[ext_resource type="Script" uid="uid://bvoqx1p7rne0t" path="res://Scripts/wangba_commit_test.gd" id="1_o5qcn"]
 
 [node name="Node2D" type="Node2D" unique_id=2075537958]
 script = ExtResource("1_o5qcn")
