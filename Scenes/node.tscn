@@ -1,21 +1,15 @@
-[gd_scene format=3 uid="uid://dectdldjml56s"]
+[gd_scene format=3 uid="uid://laqa51bwncah"]
 
-[ext_resource type="Script" uid="uid://d1bon8p4b1mcp" path="res://Scripts/MAIN.gd" id="1_1ig23"]
 [ext_resource type="Texture2D" uid="uid://ch0aljsxfwrd6" path="res://icon.svg" id="2_qtqr5"]
-[ext_resource type="Script" uid="uid://cagpu6jj0xjdx" path="res://Scripts/icon.gd" id="3_2itt3"]
-[ext_resource type="Script" uid="uid://d4diqd31kvktj" path="res://Scripts/label.gd" id="4_vixca"]
 
 [node name="Node" type="Node" unique_id=61754203]
-script = ExtResource("1_1ig23")
 
 [node name="Icon" type="Sprite2D" parent="." unique_id=2062734755]
 position = Vector2(210, 138)
 texture = ExtResource("2_qtqr5")
-script = ExtResource("3_2itt3")
 
 [node name="Label" type="Label" parent="." unique_id=1705460881]
 offset_left = 288.0
 offset_top = 85.0
 offset_right = 328.0
 offset_bottom = 108.0
-script = ExtResource("4_vixca")

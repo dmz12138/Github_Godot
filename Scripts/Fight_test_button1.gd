@@ -12,5 +12,5 @@ func _process(delta: float) -> void:
 
 
 func _on_pressed() -> void:#返回按钮
-	get_tree().change_scene_to_file("res://Scenes/Meun.tscn")
+	get_tree().change_scene_to_file("res://Scenes/Menu.tscn")
 	pass # Replace with function body.
