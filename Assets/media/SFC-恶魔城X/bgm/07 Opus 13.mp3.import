@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cbc6smeecstev"
+path="res://.godot/imported/07 Opus 13.mp3-492c610eb72f6517991a77b52d4ea1d9.mp3str"
+
+[deps]
+
+source_file="res://Assets/media/SFC-恶魔城X/bgm/07 Opus 13.mp3"
+dest_files=["res://.godot/imported/07 Opus 13.mp3-492c610eb72f6517991a77b52d4ea1d9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://6f8xens2to7j"
+path="res://.godot/imported/09 Beginning.mp3-aa86ea6c994abc12494a3b0a25d4b4b1.mp3str"
+
+[deps]
+
+source_file="res://Assets/media/SFC-恶魔城X/bgm/09 Beginning.mp3"
+dest_files=["res://.godot/imported/09 Beginning.mp3-aa86ea6c994abc12494a3b0a25d4b4b1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cntrfn37dd5wi"
+path="res://.godot/imported/04 Vampire Hunter.mp3-66ecba978108ecde87006a3b7835aa22.mp3str"
+
+[deps]
+
+source_file="res://Assets/media/SFC-恶魔城X/bgm/04 Vampire Hunter.mp3"
+dest_files=["res://.godot/imported/04 Vampire Hunter.mp3-66ecba978108ecde87006a3b7835aa22.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

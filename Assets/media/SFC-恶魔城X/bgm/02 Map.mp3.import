@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://buw5xtgq7hl7d"
+path="res://.godot/imported/02 Map.mp3-7722ed0f57d520722270633f2b852943.mp3str"
+
+[deps]
+
+source_file="res://Assets/media/SFC-恶魔城X/bgm/02 Map.mp3"
+dest_files=["res://.godot/imported/02 Map.mp3-7722ed0f57d520722270633f2b852943.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,6 +1,23 @@
 [gd_scene format=3 uid="uid://cuisbi0xtftir"]
 
 [ext_resource type="Script" uid="uid://cuaf7xubhkhbp" path="res://Scripts/Fight_test_button1.gd" id="1_q7ngv"]
+[ext_resource type="Texture2D" uid="uid://dliy0chojppi5" path="res://Assets/media/map/craftpix-net-926878-free-platformer-game-tileset-pixel-art/TILED_files/Tileset.png" id="2_05nrr"]
+[ext_resource type="PackedScene" uid="uid://6ewfqlie38me" path="res://Scenes/NPC/player.tscn" id="3_13cdr"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_13cdr"]
+texture = ExtResource("2_05nrr")
+0:20/0 = 0
+0:20/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:21/0 = 0
+0:21/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:20/0 = 0
+1:20/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:21/0 = 0
+1:21/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSet" id="TileSet_14115"]
+physics_layer_0/collision_layer = 1
+sources/2 = SubResource("TileSetAtlasSource_13cdr")
 
 [node name="Fight_test" type="Node2D" unique_id=1241621532]
 
@@ -10,11 +27,21 @@ offset_bottom = 23.0
 text = "战斗测试界面"
 
 [node name="Button" type="Button" parent="." unique_id=1125304132]
-offset_left = 2.0
-offset_top = 33.0
-offset_right = 42.0
-offset_bottom = 64.0
+offset_left = 588.0
+offset_top = 2.0
+offset_right = 638.0
+offset_bottom = 40.0
+theme_override_font_sizes/font_size = 21
 text = "返回"
 script = ExtResource("1_q7ngv")
+
+[node name="TileMap" type="TileMap" parent="." unique_id=1666348108]
+tile_set = SubResource("TileSet_14115")
+format = 2
+layer_0/tile_data = PackedInt32Array(1245184, 2, 20, 1310720, 2, 21, 1245185, 65538, 20, 1310721, 65538, 21, 1245186, 2, 20, 1310722, 2, 21, 1245187, 65538, 20, 1310723, 65538, 21, 1245188, 2, 20, 1310724, 2, 21, 1245189, 65538, 20, 1310725, 65538, 21, 1245190, 2, 20, 1310726, 2, 21, 1245191, 65538, 20, 1310727, 65538, 21, 1179656, 2, 20, 1245192, 2, 21, 1179657, 65538, 20, 1245193, 65538, 21, 1114122, 2, 20, 1179658, 2, 21, 1114123, 65538, 20, 1179659, 65538, 21, 1048588, 2, 20, 1114124, 2, 21, 1048589, 65538, 20, 1114125, 65538, 21, 1048590, 2, 20, 1114126, 2, 21, 1048591, 65538, 20, 1114127, 65538, 21, 1048592, 2, 20, 1114128, 2, 21, 1048593, 65538, 20, 1114129, 65538, 21, 1048594, 2, 20, 1114130, 2, 21, 1048595, 65538, 20, 1114131, 65538, 21, 1048596, 2, 20, 1114132, 2, 21, 1048597, 65538, 20, 1114133, 65538, 21, 1048598, 2, 20, 1114134, 2, 21, 1048599, 65538, 20, 1114135, 65538, 21, 1048600, 2, 20, 1114136, 2, 21, 1048601, 65538, 20, 1114137, 65538, 21, 917528, 2, 20, 983064, 2, 21, 917529, 65538, 20, 983065, 65538, 21, 786456, 2, 20, 851992, 2, 21, 786457, 65538, 20, 851993, 65538, 21, 720916, 2, 20, 786452, 2, 21, 720917, 65538, 20, 786453, 65538, 21, 589844, 2, 20, 655380, 2, 21, 589845, 65538, 20, 655381, 65538, 21, 655384, 2, 20, 720920, 2, 21, 655385, 65538, 20, 720921, 65538, 21, 655386, 2, 20, 720922, 2, 21, 655387, 65538, 20, 720923, 65538, 21, 655388, 2, 20, 720924, 2, 21, 655389, 65538, 20, 720925, 65538, 21, 655390, 2, 20, 720926, 2, 21, 655391, 2, 20, 720927, 2, 21, 655392, 65538, 20, 720928, 65538, 21, 655393, 2, 20, 720929, 2, 21, 655394, 65538, 20, 720930, 65538, 21, 655395, 2, 20, 720931, 2, 21, 655396, 65538, 20, 720932, 65538, 21, 851988, 2, 20, 851989, 65538, 20)
+layer_1/name = "Layer1"
+
+[node name="Player" parent="." unique_id=211284451 instance=ExtResource("3_13cdr")]
+position = Vector2(21, 215)
 
 [connection signal="pressed" from="Button" to="Button" method="_on_pressed"]

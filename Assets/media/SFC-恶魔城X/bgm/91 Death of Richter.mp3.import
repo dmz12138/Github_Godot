@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bswrird883hgh"
+path="res://.godot/imported/91 Death of Richter.mp3-3a441328a5276eb8c087768a729cb5d9.mp3str"
+
+[deps]
+
+source_file="res://Assets/media/SFC-恶魔城X/bgm/91 Death of Richter.mp3"
+dest_files=["res://.godot/imported/91 Death of Richter.mp3-3a441328a5276eb8c087768a729cb5d9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
