@@ -1,0 +1,176 @@
+[gd_scene format=3 uid="uid://bqt03y0erc5de"]
+
+[ext_resource type="Texture2D" uid="uid://ba7qjyhuwqtlu" path="res://Assets/media/Q版小怪/2/Attack1_1.png" id="1_7ns6e"]
+[ext_resource type="Script" uid="uid://m8iooyi8j1ks" path="res://Scripts/enemy/enemy_test.gd" id="1_y5cue"]
+[ext_resource type="Texture2D" uid="uid://dhh5fu8vbbuiu" path="res://Assets/media/Q版小怪/2/Attack1_2.png" id="2_y5cue"]
+[ext_resource type="Texture2D" uid="uid://dsrksimxicoad" path="res://Assets/media/Q版小怪/2/Attack1_3.png" id="3_l5som"]
+[ext_resource type="Texture2D" uid="uid://djfghqkdgat2n" path="res://Assets/media/Q版小怪/2/Attack1_4.png" id="4_cfi7f"]
+[ext_resource type="Texture2D" uid="uid://bjk3ju6itwqvo" path="res://Assets/media/Q版小怪/2/Attack1_5.png" id="5_fxt3f"]
+[ext_resource type="Texture2D" uid="uid://5h1cm2pt83yw" path="res://Assets/media/Q版小怪/2/Attack1_6.png" id="6_sqfhn"]
+[ext_resource type="Texture2D" uid="uid://b5aot33y05q03" path="res://Assets/media/Q版小怪/2/Death1.png" id="7_uvfp0"]
+[ext_resource type="Texture2D" uid="uid://dlkfcrcl51x1i" path="res://Assets/media/Q版小怪/2/Death2.png" id="8_0q80l"]
+[ext_resource type="Texture2D" uid="uid://be4imie0qlx0p" path="res://Assets/media/Q版小怪/2/Death3.png" id="9_6q3ud"]
+[ext_resource type="Texture2D" uid="uid://bcu0h52dexq0k" path="res://Assets/media/Q版小怪/2/Death4.png" id="10_uc7ra"]
+[ext_resource type="Texture2D" uid="uid://ccr7jd6swdfmm" path="res://Assets/media/Q版小怪/2/Death5.png" id="11_wkutk"]
+[ext_resource type="Texture2D" uid="uid://v8w1mtlcg88p" path="res://Assets/media/Q版小怪/2/Death6.png" id="12_m43wi"]
+[ext_resource type="Texture2D" uid="uid://3d0y6fskldka" path="res://Assets/media/Q版小怪/2/Death7.png" id="13_toawp"]
+[ext_resource type="Texture2D" uid="uid://666di6fd3kja" path="res://Assets/media/Q版小怪/2/Death8.png" id="14_2ed75"]
+[ext_resource type="Texture2D" uid="uid://dijjrdv13chdg" path="res://Assets/media/Q版小怪/2/Hurt1.png" id="15_xpq7j"]
+[ext_resource type="Texture2D" uid="uid://bd2jgdemcvyj" path="res://Assets/media/Q版小怪/2/Hurt2.png" id="16_0imrt"]
+[ext_resource type="Texture2D" uid="uid://gxbn4cntmui3" path="res://Assets/media/Q版小怪/2/Hurt3.png" id="17_4ovym"]
+[ext_resource type="Texture2D" uid="uid://dmt5sk5i30e5m" path="res://Assets/media/Q版小怪/2/Hurt4.png" id="18_h62pj"]
+[ext_resource type="Texture2D" uid="uid://c62av6borfvc4" path="res://Assets/media/Q版小怪/2/Idle1.png" id="19_8tm5d"]
+[ext_resource type="Texture2D" uid="uid://cjcafiyyaoq2h" path="res://Assets/media/Q版小怪/2/Idle2.png" id="20_1o1nt"]
+[ext_resource type="Texture2D" uid="uid://81oirj100dwf" path="res://Assets/media/Q版小怪/2/Idle3.png" id="21_jcful"]
+[ext_resource type="Texture2D" uid="uid://c1q1c05vmyy2i" path="res://Assets/media/Q版小怪/2/Idle4.png" id="22_jd7yp"]
+[ext_resource type="Texture2D" uid="uid://b3hbo87vmhdu6" path="res://Assets/media/Q版小怪/2/Run1.png" id="23_vsf7p"]
+[ext_resource type="Texture2D" uid="uid://d14d53x2vhebw" path="res://Assets/media/Q版小怪/2/Run2.png" id="24_cr0cr"]
+[ext_resource type="Texture2D" uid="uid://b4rtjrmq8xicw" path="res://Assets/media/Q版小怪/2/Run3.png" id="25_ekuv7"]
+[ext_resource type="Texture2D" uid="uid://clvm2m65ex26" path="res://Assets/media/Q版小怪/2/Run4.png" id="26_2gcvb"]
+[ext_resource type="Texture2D" uid="uid://c7vpnot5rla6o" path="res://Assets/media/Q版小怪/2/Run5.png" id="27_30cwy"]
+[ext_resource type="Texture2D" uid="uid://diixcxhnuk0ds" path="res://Assets/media/Q版小怪/2/Run6.png" id="28_nvlwd"]
+[ext_resource type="Texture2D" uid="uid://dyxf0kscmqnmc" path="res://Assets/media/Q版小怪/2/Run7.png" id="29_l1cj6"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0r3sx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_7ns6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_y5cue")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_l5som")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_cfi7f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_fxt3f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_sqfhn")
+}],
+"loop": false,
+"name": &"Attack1",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_uvfp0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_0q80l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_6q3ud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_uc7ra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_wkutk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_m43wi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_toawp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_2ed75")
+}],
+"loop": false,
+"name": &"Death",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_xpq7j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_0imrt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_4ovym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_h62pj")
+}],
+"loop": false,
+"name": &"Hurt",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_8tm5d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_1o1nt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_jcful")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_jd7yp")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_vsf7p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_cr0cr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_ekuv7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_2gcvb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_30cwy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_nvlwd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_l1cj6")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 7.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7ns6e"]
+radius = 12.0
+height = 38.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_y5cue"]
+radius = 125.016
+
+[node name="Enemy_test" type="CharacterBody2D" unique_id=1166784136]
+script = ExtResource("1_y5cue")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=993403805]
+position = Vector2(34.000004, -22)
+scale = Vector2(1.4985293, 1.4691175)
+sprite_frames = SubResource("SpriteFrames_0r3sx")
+animation = &"Attack1"
+autoplay = "Idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1043099755]
+position = Vector2(28, -21)
+shape = SubResource("CapsuleShape2D_7ns6e")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=393150066]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1387448183]
+position = Vector2(28, -21)
+shape = SubResource("CircleShape2D_y5cue")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
